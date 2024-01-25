@@ -19,9 +19,7 @@ public class OpenGoogleChrome {
 		//wait();
 		driver.findElement(By.name("q")).sendKeys("LearnAutomationOnline" + Keys.ENTER );
 		/*driver.quit();*/
-		//
-		
-		
+		//Updated 25-Jan-2024
 	}
 
 }
