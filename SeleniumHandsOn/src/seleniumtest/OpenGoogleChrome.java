@@ -18,7 +18,7 @@ public class OpenGoogleChrome {
 		driver.get("http://www.google.com");
 		//wait();
 		driver.findElement(By.name("q")).sendKeys("LearnAutomationOnline" + Keys.ENTER );
-		//driver.quit();
+		/*driver.quit();*/
 		
 		
 	}
